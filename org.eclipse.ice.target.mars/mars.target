@@ -162,7 +162,7 @@
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.fx.target.rcp.feature.feature.group" version="2.1.0.201507060602"/>
+<unit id="org.eclipse.fx.target.rcp.feature.feature.group" version="2.1.0.201507310602"/>
 <repository location="http://download.eclipse.org/efxclipse/runtime-nightly/site"/>
 </location>
 </locations>

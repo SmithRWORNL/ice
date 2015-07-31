@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.eclipse.ice.viz.service.geometry' version='2.0.0'>
+    <update id='org.eclipse.ice.viz.service.geometry' range='[0.0.0,2.0.0)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Geometry Visualization Service Plugin'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Oak Ridge National Laboratory'/>
+      <property name='maven-groupId' value='ICE'/>
+      <property name='maven-artifactId' value='org.eclipse.ice.viz.service.geometry'/>
+      <property name='maven-version' value='2.0.0'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ice.viz.service.geometry' version='2.0.0'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ice.viz.service.geometry' version='2.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ice.viz.service.geometry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ice.viz.service.geometry.shapes' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ice.viz.service.geometry.widgets' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='25'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.app' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.asset' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.export' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.font' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.input' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.light' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.material' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.math' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.renderer' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.renderer.queue' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.scene' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.scene.mesh' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.scene.shape' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.system' range='0.0.0'/>
+      <required namespace='java.package' name='com.jme3.util' range='0.0.0'/>
+      <required namespace='java.package' name='gov.lbnl.visit.swt' range='0.0.0'/>
+      <required namespace='java.package' name='gov.lbnl.visit.swt.widgets' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ice.viz.service' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ice.viz.service.datastructures' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ice.viz.service.geometry.shapes' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jface.databinding.swt' range='0.0.0'/>
+      <required namespace='java.package' name='org.slf4j' range='1.7.2'/>
+      <required namespace='java.package' name='visit.java.client' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ice.viz.service.geometry' version='2.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ice.viz.service.geometry;singleton:=true&#xA;Bundle-Version: 2.0.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

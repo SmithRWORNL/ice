@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 sec - in org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester
+checkGetTransformation(org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester)  Time elapsed: 0.006 sec
+checkEquality(org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester)  Time elapsed: 0 sec
+checkProperties(org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester)  Time elapsed: 0.001 sec
+checkCopying(org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester)  Time elapsed: 0 sec
+checkNotifications(org.eclipse.ice.viz.service.geometry.shapes.test.AbstractShapeTester)  Time elapsed: 0.201 sec

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.ice.viz.service.geometry.test
+Export-Package: org.eclipse.ice.viz.service.geometry.shapes.test
+Bundle-Name: Geometry Visualization Service Plugin Test Bundle
+Bundle-Version: 2.0.0
+Require-Bundle: org.junit,org.eclipse.ice.client.widgets.test.utils,or
+ g.eclipse.swtbot.swt.finder
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Oak Ridge National Laboratory
+Import-Package: org.apache.log4j,org.eclipse.ice.datastructures.ICEObj
+ ect,org.eclipse.ice.viz.service.datastructures,org.eclipse.ice.viz.se
+ rvice.geometry
+Fragment-Host: org.eclipse.ice.viz.service.geometry
+

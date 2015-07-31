@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.ice.viz.service.geometry;singleton:=t
+ rue
+Export-Package: org.eclipse.ice.viz.service.geometry,org.eclipse.ice.v
+ iz.service.geometry.shapes,org.eclipse.ice.viz.service.geometry.widge
+ ts
+Bundle-Name: Geometry Visualization Service Plugin
+Bundle-Version: 2.0.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Oak Ridge National Laboratory
+Import-Package: com.jme3.app,com.jme3.asset,com.jme3.export,com.jme3.f
+ ont,com.jme3.input,com.jme3.light,com.jme3.material,com.jme3.math,com
+ .jme3.renderer,com.jme3.renderer.queue,com.jme3.scene,com.jme3.scene.
+ mesh,com.jme3.scene.shape,com.jme3.system,com.jme3.util,gov.lbnl.visi
+ t.swt,gov.lbnl.visit.swt.widgets,org.eclipse.ice.viz.service,org.ecli
+ pse.ice.viz.service.datastructures,org.eclipse.ice.viz.service.geomet
+ ry.shapes,org.eclipse.jface.databinding.swt,org.slf4j;version="1.7.2"
+ ,visit.java.client
+Service-Component: OSGI-INF/vizService.xml
+
